@@ -1,0 +1,82 @@
+.page-container {
+    width: 1600px;
+    height: 801px;
+    gap: 0px;
+    opacity: 1;
+    /* Set to 1 for visibility */
+}
+
+.navbar-brand {
+    font-family: 'Rubik', sans-serif;
+    color: #161C2D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.44px;
+    letter-spacing: -0.1333px;
+    text-align: left;
+    width: 154px;
+    height: 28px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    gap: 0px;
+    /* Not necessary in this case */
+    opacity: 1;
+    /* Adjust to 1 if visibility is needed */
+}
+
+.navbar {
+    width: 1189px;
+    /* Sets the width of the navbar */
+    height: 50px;
+    /* Sets the height of the navbar */
+    position: relative;
+    /* Enables the use of 'top' and 'left' */
+    top: 16px;
+    /* Moves the navbar 16px down from the top relative to its containing block */
+    left: 166px;
+    /* Moves the navbar 166px from the left relative to its containing block */
+    gap: 0px;
+    /* No gap between items inside the navbar */
+    opacity: 1;
+    /* Makes the navbar invisible (set to 1 if you want visibility) */
+}
+
+.nav-links-block {
+    width: 333px;
+    /* Sets the width of the entire block */
+    height: 26px;
+    /* Sets the height of the entire block */
+    position: relative;
+    /* Allows positioning */
+    top: 12px;
+    /* Moves the block 12px from the top */
+    left: 232px;
+    /* Moves the block 232px from the left */
+    gap: 0px;
+    /* No gap between items inside the block */
+    opacity: 1;
+    /* Ensure the block is visible */
+}
+
+.nav-link {
+    font-family: 'Gilroy', sans-serif;
+    /* Apply the Gilroy font */
+    color: #161C2D;
+    font-size: 15px;
+    /* Set the font size */
+    font-weight: 700;
+    /* Set the font weight (bold) */
+    line-height: 26px;
+    /* Set the line height */
+    letter-spacing: -0.1px;
+    /* Adjust the letter spacing */
+    text-align: left;
+    /* Align the text to the left */
+}
+
+
+.nav-link.active {
+    font-weight: 700;
+    /* Bold font for active state */
+}

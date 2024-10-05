@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/path-to-font/Gilroy-Regular.woff2') format('woff2'),
+         url('/path-to-font/Gilroy-Regular.woff') format('woff');
+    font-weight: 700;   /* Specify the weight if needed */
+    font-style: normal;
+  }
+  
